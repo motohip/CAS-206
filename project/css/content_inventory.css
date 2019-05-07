@@ -1,0 +1,55 @@
+/*
+Assignment Name: Content Inventory :: CSS
+File Name: content_inventory.css
+Date: 04/20/19
+Programmer: Mark Han
+*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #404040;
+    line-height: 1.5em;
+    border: 1px solid #bebebe;
+    margin: 1% 15%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 1.0em;
+}
+
+dt {
+    font-weight: bold;
+}
+
+a:link {
+    text-decoration: none;
+    color: darkgoldenrod;
+}
+
+a:hover {
+    text-decoration: underline;
+    background-color: #F4E8F0;
+}
+
+a:visited {
+    color: darkred;
+}
+
+#wrapper {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: gray;
+    border-width: 5px;
+    width: 15%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}

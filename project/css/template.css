@@ -1,0 +1,89 @@
+/*
+Assignment Name: Template :: CSS
+File Name: template.css
+Date: 05/05/19
+Programmer: Mark Han
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+header,
+nav,
+main,
+footer {
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #343d46;
+    width: 100%;
+    padding: 40px;
+    text-align: right;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: right;
+}
+
+li a:hover {
+    color: #a7adba;
+}
+
+.logo {
+    float: left;
+    padding-left: 70px;
+    position: relative;
+    margin-top: -110px;
+}
+
+main {
+    clear: both;
+    padding-top: 50px;
+}
+
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+h1 {
+    text-align: left;
+    padding-top: 60px;
+    padding-left: 500px;
+}
+
+body {
+    color: #343d46;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+footer {
+    position: relative;
+    padding: 25px;
+    background-color: #c0c5ce;
+    font-size: .8rem;
+    text-align: center;
+}
+
+footer a:link {
+    color: #343d46;
+    text-decoration: none;
+}
